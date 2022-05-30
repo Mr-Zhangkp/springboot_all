@@ -5,3 +5,4 @@ spring:
       url: jdbc:mysql:///business
       username: business
       password: business
+      type: druid

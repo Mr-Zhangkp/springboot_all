@@ -2,7 +2,7 @@ spring:
   jdbc:
     datasource:
       driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql:///springboot_dev
+      url: jdbc:mysql:///springboot_01_datasource
       username: root
       password: root
       type: c3p0

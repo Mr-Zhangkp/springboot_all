@@ -9,40 +9,15 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.6.RELEASE</version>
     </parent>
-
     <groupId>com.zhang</groupId>
-    <artifactId>springboot_01</artifactId>
+    <artifactId>springboot_02</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
-
-
     <dependencies>
-
-        <!--引入自定义的DataSource启动器-->
-        <dependency>
-            <groupId>com.zhang</groupId>
-            <artifactId>spring-boot-jdbc-starter</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-
     </dependencies>
-
 
 </project>
