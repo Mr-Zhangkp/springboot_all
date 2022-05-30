@@ -16,6 +16,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
+    @RequestMapping("/findAll")
     public List<User> findAll(){
         List<User> users = new ArrayList<>();
 
